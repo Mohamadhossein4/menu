@@ -48,7 +48,7 @@ const Header = () => {
           className="-ml-3.5"
         />
       </div>
-      <div className="absolute border h-62 w-45 left-2">
+      <div className="absolute  rounded-xl border h-62 w-45 left-2">
         <Menu1></Menu1>
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-5 top-44 left-1.5">
@@ -59,7 +59,7 @@ const Header = () => {
         <span>3 رول</span>
       </div>
 
-      <div className="absolute border h-62 w-45 right-2 top-100 shadow-xl">
+      <div className="absolute rounded-xl border h-62 w-45 right-2 top-100 shadow-xl">
         <Menu2></Menu2>
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-5 top-94 right-12">
@@ -70,7 +70,7 @@ const Header = () => {
         <span>3 رول</span>
       </div>
 
-      <div className="absolute border h-42 w-45 left-2 top-120 shadow-xl">
+      <div className="absolute rounded-xl border h-42 w-45 left-2 top-120 shadow-xl">
         <Menu3></Menu3>
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-5 top-114 left-1">
