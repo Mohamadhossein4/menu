@@ -88,8 +88,8 @@ const Header = () => {
       </div>
 
       <div className="absolute top-170 left-2.5">
-        <div className="flex flex-col gap-2">
-          <div className="flex gap-1">
+        <div className="flex flex-col items-center gap-2">
+          <div className="flex gap-1 items-center">
             <span className="text-sm text-white bg-amber-950/80 rounded-r-lg p-2">thaice.netlify.app</span>
             <span className="text-sm text-white bg-pink-950/80 rounded-l-lg p-2">09054900353</span>
           </div>
