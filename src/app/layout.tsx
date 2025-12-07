@@ -7,7 +7,7 @@ import {
 import { iranSans } from "@/lib/fonts/font";
 
 import "../styles/globals.css";
-import Header from "@/components/Header";
+import Header from "@/components/home/Menu";
 
 export const metadata: Metadata = {
   title: "بستنی تایسی رول",

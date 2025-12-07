@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Menu2 = () => {
+const SurpriseMenu = () => {
   return (
     <div className="flex flex-col items-center mt-14 p-3 text-pink-900 gap-10">
                <div>هر هفته یک طعم جدید</div>
@@ -9,4 +9,4 @@ const Menu2 = () => {
   )
 }
 
-export default Menu2
+export default SurpriseMenu

@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import headerImg from "../../public/images/headerImg.png";
-import footerImg from "../../public/images/footerImg.png";
-import iceCream from "../../public/images/iceCream.png";
-import Menu1 from "./Menu1";
-import Menu2 from "./Menu2";
-import Menu3 from "./Menu3";
+import headerImg from "../../../public/images/headerImg.png";
+import footerImg from "../../../public/images/footerImg.png";
+import iceCream from "../../../public/images/iceCream.png";
+import MainMenu from "../MainMenu";
+import LuxuryMenu from "../LuxuryMenu";
+import SurpriseMenu from "../SurpriseMenu";
+import { morabba } from "@/lib/fonts/font";
+
 
 const HeaderStyle = {
   width: "200px",
@@ -34,7 +36,7 @@ const Header = () => {
           className="-ml-3.5"
         />
       </div>
-      <div className="absolute flex flex-col items-center top-20 left-20 gap-y-2">
+      <div className={`${morabba.className} absolute flex flex-col items-center top-20 left-20 gap-y-2`}>
         <span className="text-4xl text-amber-950 font-bold">
           بستنی تایسی رول
         </span>
@@ -49,7 +51,7 @@ const Header = () => {
         />
       </div>
       <div className="absolute  rounded-xl border h-62 w-45 left-2">
-        <Menu1></Menu1>
+        <MainMenu />
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-44 left-9">
         منو ترکیبی
@@ -60,7 +62,7 @@ const Header = () => {
       </div>
 
       <div className="absolute rounded-xl border h-62 w-45 right-2 top-100 shadow-xl">
-        <Menu2></Menu2>
+        <LuxuryMenu/>
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-94 right-8">
         منو لاکچری
@@ -71,21 +73,13 @@ const Header = () => {
       </div>
 
       <div className="absolute rounded-xl border h-42 w-45 left-2 top-120 shadow-xl">
-        <Menu3></Menu3>
+        <SurpriseMenu/>
       </div>
       <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-114 left-8.5">
         منو سوپرایز
       </div>
       
 
-      <div className="absolute -bottom-161 right-0">
-        <Image
-          style={FooterStyle}
-          src={footerImg}
-          alt="header"
-          className="-ml-3.5"
-        />
-      </div>
 
       <div className="absolute top-170 left-2.5">
         <div className="flex flex-col items-center gap-2">
@@ -93,8 +87,16 @@ const Header = () => {
             <span className="text-sm text-white bg-amber-950/80 rounded-r-lg p-2">thaice.netlify.app</span>
             <span className="text-sm text-white bg-pink-950/80 rounded-l-lg p-2">09054900353</span>
           </div>
-          <span className="text-[13.5px] "> تهران ، پیروزی ، بلوار ابوذر ، پارک وحدت</span>
+          <span className="text-[13.5px] "> تهران ، بلوار ابوذر ، پارک وحدت</span>
         </div>
+      </div>
+      <div className="absolute -bottom-161 right-0">
+        <Image
+          style={FooterStyle}
+          src={footerImg}
+          alt="header"
+          className="-ml-3.5"
+        />
       </div>
     </div>
   );

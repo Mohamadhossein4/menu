@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Menu2 = () => {
+const LuxuryMenu = () => {
   return (
-      <div className="flex flex-col mt-10 p-2 gap-1">
+    <div className="flex flex-col mt-10 p-2 gap-1">
                <div className="flex items-center justify-between">
                 <span>کیک موز </span>
                 <div className="flex gap-3 ">
@@ -52,4 +52,4 @@ const Menu2 = () => {
   )
 }
 
-export default Menu2
+export default LuxuryMenu
