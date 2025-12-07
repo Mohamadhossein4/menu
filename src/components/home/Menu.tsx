@@ -6,7 +6,7 @@ import iceCream from "../../../public/images/iceCream.png";
 import MainMenu from "../MainMenu";
 import LuxuryMenu from "../LuxuryMenu";
 import SurpriseMenu from "../SurpriseMenu";
-import { morabba } from "@/lib/fonts/font";
+import { morabba } from "../../lib/fonts/font";
 
 
 const HeaderStyle = {
