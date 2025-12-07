@@ -6,7 +6,7 @@ import iceCream from "../../../public/images/iceCream.png";
 import MainMenu from "../MainMenu";
 import LuxuryMenu from "../LuxuryMenu";
 import SurpriseMenu from "../SurpriseMenu";
-
+import { morabba } from "@/lib/fonts/font";
 
 const HeaderStyle = {
   width: "200px",
@@ -35,7 +35,7 @@ const Header = () => {
           className="-ml-3.5"
         />
       </div>
-      <div className={` absolute flex flex-col items-center top-20 left-20 gap-y-2`}>
+      <div className={`${morabba.className} absolute flex flex-col items-center top-20 left-20 gap-y-2`}>
         <span className="text-4xl text-amber-950 font-bold">
           بستنی تایسی رول
         </span>
