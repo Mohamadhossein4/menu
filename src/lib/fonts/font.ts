@@ -10,7 +10,7 @@ export const iranSans = localFont({
 
 export const morabba = localFont({
   src: [
-    { path: "./Morabba/woff2/Morabba-light.woff2", weight: "300" },
+    // { path: "./Morabba/woff2/Morabba-light.woff2", weight: "300" },
     { path: "./Morabba/woff2/Morabba-Medium.woff2", weight: "500" },
     { path: "./Morabba/woff2/Morabba-Bold.woff2", weight: "700" },
   ],
