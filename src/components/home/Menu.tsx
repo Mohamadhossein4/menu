@@ -22,7 +22,7 @@ const imgStyle = {
 };
 const Header = () => {
   return (
-    <div className="relative container">
+    <div className="relative container bg-[url('/images/background.jpg')] bg-repeat-round min-h-screen">
       <div className="absolute w-6 h-6 rounded-full bg-amber-900/50 right-1 top-18"></div>
       <div className="absolute w-2 h-2 rounded-full bg-amber-900/50 right-6 top-26"></div>
       <div className="absolute w-4 h-4 rounded-full bg-amber-900/50 right-8 top-12"></div>
@@ -52,7 +52,7 @@ const Header = () => {
       <div className="absolute  rounded-xl border h-62 w-45 left-2">
         <MainMenu />
       </div>
-      <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-44 left-9">
+      <div className="absolute text-2xl font-bold text-pink-700 bg-pink-100  p-2 px-3 top-44 left-9">
         منو ترکیبی
       </div>
       <div className="absolute flex items-center gap-3 left-4.5 top-56 text-xs ">
@@ -63,7 +63,7 @@ const Header = () => {
       <div className="absolute rounded-xl border h-62 w-45 right-2 top-100 shadow-xl">
         <LuxuryMenu/>
       </div>
-      <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-94 right-8">
+      <div className="absolute text-2xl font-bold text-pink-700 bg-linear-to-l from-pink-100 to-pink-50 p-2 px-3 top-94 right-8">
         منو لاکچری
       </div>
       <div className="absolute flex items-center gap-3 right-28 top-106 text-xs ">
@@ -74,7 +74,7 @@ const Header = () => {
       <div className="absolute rounded-xl border h-42 w-45 left-2 top-120 shadow-xl">
         <SurpriseMenu/>
       </div>
-      <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 p-2 px-3 top-114 left-8.5">
+      <div className="absolute text-2xl font-bold text-pink-700 bg-pink-50 rounded-xl bg-[url('/images/background.jpg')] p-2 px-3 top-114  left-8.5">
         منو سوپرایز
       </div>
       
@@ -89,7 +89,7 @@ const Header = () => {
           <span className="text-[13.5px] "> تهران ، بلوار ابوذر ، پارک وحدت</span>
         </div>
       </div>
-      <div className="absolute -bottom-161 right-0">
+      <div className="absolute bottom-0 right-0">
         <Image
           style={FooterStyle}
           src={footerImg}
