@@ -11,7 +11,7 @@ interface SupriseMenuProp {
 
 const SurpriseMenu = ({ menuTitle, items }: SupriseMenuProp) => {
   return (
-    <div className="rounded-xl border border-gray-700">
+    <div className="rounded-xl border border-gray-700 shadow-md">
       <div className="relative">
         <div className="absolute text-2xl font-bold text-pink-700 bg-[url('/images/background.jpg')] p-2 px-2 -top-7 left-1/2 -translate-x-1/2 ">
           {menuTitle}

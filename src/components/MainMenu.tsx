@@ -12,7 +12,7 @@ items: {
 
 const MainMenu = ({menuTitle , items} : MainMenuProp) => {
   return (
-    <div className="rounded-xl border border-gray-700">
+    <div className="rounded-xl border border-gray-700 shadow-md">
       <div className="relative">
       <div className="absolute text-2xl font-bold text-pink-700 bg-[url('/images/background.jpg')] p-2 px-2 -top-7 left-1/2 -translate-x-1/2 ">
        {menuTitle}
@@ -26,7 +26,7 @@ const MainMenu = ({menuTitle , items} : MainMenuProp) => {
       {items.map((items, index)=>{
         return(
         <div key={index} className="flex items-center justify-between">
-          <span>{items.name}</span>
+          <span className="text-lg">{items.name}</span>
           <div className={`${iranSans.className} flex items-center justify-center gap-2 `}>
             <span className="bg-pink-100 border border-pink-500 px-1 text-gray-600 rounded-md">{items.twoRoolPrice}</span>
             <span className="bg-pink-100 border border-pink-500 px-1 text-gray-600 rounded-md">{items.threeRoolPrice}</span>

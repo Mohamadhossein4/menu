@@ -3,14 +3,14 @@ import Image from "next/image";
 import footerImg from "../../public/images/footerImg.png";
 
 const FooterStyle = {
-  width: "400px",
-  height: "200px",
+  width: "300px",
+  height: "300px",
 };
 
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-col items-center gap-2 -mb-24 mt-6">
+      <div className="flex flex-col items-center gap-2 -mb-40 mt-6">
         <div className="flex gap-1 items-center">
           <span className="text-sm text-white bg-amber-950/80 rounded-r-lg p-2">
             thaice.vercel.app
@@ -28,6 +28,11 @@ const Footer = () => {
           alt="footer"
           className=""
         />
+      </div>
+      <div className="relative">
+        <div className="absolute w-6 h-6 rounded-full bg-red-900/70 left-3 bottom-10"></div>
+        <div className="absolute w-4 h-4 rounded-full bg-red-900/70 left-5 bottom-18"></div>
+        <div className="absolute w-2 h-2 rounded-full bg-red-900/70 left-12 bottom-8"></div>
       </div>
     </div>
   );

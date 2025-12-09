@@ -26,11 +26,11 @@ const MainMenuitems = [
     twoRoolPrice: 120,
     threeRoolPrice: 150,
   },{
-    name: "نوتلا + موز + لوکوم",
+    name: "نوتلا + موز + لوتوس",
     twoRoolPrice: 120,
     threeRoolPrice: 150,
   },{
-    name: "اورئو + کره بادام زمنی + موز",
+    name: "اورئو + کره بادام زمینی + موز",
     twoRoolPrice: 120,
     threeRoolPrice: 150,
   },{
@@ -67,7 +67,7 @@ const Supriseitems = [
 
 const Menu = () => {
   return (
-    <div className="flex flex-col container gap-10">
+    <div className="flex flex-col container gap-10 -mt-6">
       <div className="px-4">
         <MainMenu items={MainMenuitems} menuTitle={"منو ترکیبی"}/>
       </div>

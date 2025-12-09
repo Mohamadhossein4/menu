@@ -3,8 +3,8 @@ import Image from "next/image";
 
 
 const HeaderStyle = {
-  width: "200px",
-  height: "200px",
+  width: "380px",
+  height: "260px",
 };
 
 const Header = () => {
@@ -15,11 +15,11 @@ const Header = () => {
         <div className="absolute w-4 h-4 rounded-full bg-amber-900/70 right-8 bottom-12"></div>
         <div className="absolute w-2 h-2 rounded-full bg-amber-900/70 right-6 bottom-0"></div>
       </div>
-      <div className="relative top-20 left-20">
-        <span className="absolute bottom-16 right-11 w-64 text-4xl text-amber-950 font-bold">
+      <div className="relative top-16 left-20">
+        <span className="absolute bottom-16 right-32 w-64 text-4xl text-amber-950 font-bold">
           بستنی تایسی رول
         </span>
-        <span className="absolute bottom-7 right-13 w-30 text-xl text-pink-400">
+        <span className="absolute bottom-7 right-34 w-30 text-xl text-pink-400">
           بستنی رولی
         </span>
       </div>
