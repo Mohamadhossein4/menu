@@ -10,7 +10,7 @@ const FooterStyle = {
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-col items-center gap-2 -mb-40 mt-6">
+      <div className="flex flex-col items-center gap-2 -mb-42 mt-6">
         <div className="flex gap-1 items-center">
           <span className="text-sm text-white bg-amber-950/80 rounded-r-lg p-2">
             thaice.vercel.app
