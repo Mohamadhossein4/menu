@@ -7,7 +7,9 @@ import {
 import { iranSans } from "@/lib/fonts/font";
 
 import "../styles/globals.css";
-import Header from "@/components/home/Menu";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { morabba } from "@/lib/fonts/font";
 
 export const metadata: Metadata = {
   title: "بستنی تایسی رول",
@@ -25,13 +27,13 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body
-        className={`${iranSans.className} bg-pink-50 antialiase min-h-screen flex flex-col relative`}
+        className={`${morabba.className} bg-[url('/images/background.jpg')] md:bg-cover `}
       >
-       
+       <Header/>
         <main>
           <MantineProvider>{children}</MantineProvider>
         </main>
-       
+       <Footer/>
       </body>
     </html>
   );
