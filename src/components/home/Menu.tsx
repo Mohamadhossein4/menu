@@ -26,7 +26,7 @@ const MainMenuitems = [
     twoRoolPrice: 140,
     threeRoolPrice: 180,
   },{
-    name: "نوتلا + موز + لوتوس",
+    name: "نوتلا + موز + لوکوس",
     twoRoolPrice: 140,
     threeRoolPrice: 180,
   },{
