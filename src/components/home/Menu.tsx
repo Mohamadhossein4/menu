@@ -9,52 +9,52 @@ import SurpriseMenu from "../SurpriseMenu";
 const MainMenuitems = [
   {
     name: "موز کیک",
-    twoRoolPrice: 180,
-    threeRoolPrice: 220,
+    twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },
   {
     name: "توت فرنگی + کیک",
-     twoRoolPrice: 180,
-    threeRoolPrice: 220,
+     twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },
   {
     name: "نوتلا + موز + توت فرنگی",
-    twoRoolPrice: 180,
-    threeRoolPrice: 220,
+    twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },{
     name: "نوتلا + موز + پسته",
-    twoRoolPrice: 180,
-    threeRoolPrice: 220,
+    twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },{
     name: "نوتلا + موز + لوکوس",
-   twoRoolPrice: 180,
-    threeRoolPrice: 220,
+   twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },{
     name: "اورئو + کره بادام زمینی + موز",
-   twoRoolPrice: 180,
-    threeRoolPrice: 220,
+   twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },{
     name: "قهوه شنی + موز",
-   twoRoolPrice: 180,
-    threeRoolPrice: 220,
+   twoRoolPrice: 200,
+    threeRoolPrice: 250,
   },
 ];
 
 const Luxuryitems = [
   {
     name: "موز + نوتلا + اورئو + پسته",
+    twoRoolPrice: 250,
+    threeRoolPrice: 280,
+  },
+  {
+    name: "ترش لواشکی",
     twoRoolPrice: 200,
     threeRoolPrice: 250,
   },
   {
-    name: "ترش لواشکی",
-    twoRoolPrice: 180,
-    threeRoolPrice: 220,
-  },
-  {
     name: "ترکیب به انتخاب شما",
-    twoRoolPrice: 180,
-    threeRoolPrice: 220,
+    twoRoolPrice: 280,
+    threeRoolPrice: 320,
   }
 ];
 
